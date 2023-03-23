@@ -81,6 +81,8 @@
       <timezone>America/New_York</timezone>
       <properties>
         <picUrl>https://avatars2.githubusercontent.com/u/9654?v=3&amp;s=150</picUrl>
+          <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+          <skipTests>true</skipTests>
       </properties>
     </developer>
   </developers>
@@ -151,7 +153,8 @@
   <dependencyManagement>
     <dependencies>
 
-      <dependency>
+
+        <dependency>
         <groupId>org.ow2.asm</groupId>
         <artifactId>asm</artifactId>
         <version>9.1</version>
