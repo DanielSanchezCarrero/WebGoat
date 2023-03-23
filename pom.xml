@@ -81,10 +81,7 @@
       <timezone>America/New_York</timezone>
       <properties>
         <picUrl>https://avatars2.githubusercontent.com/u/9654?v=3&amp;s=150</picUrl>
-          <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-          <skipTests>true</skipTests>
-          <sonar.organization>alejandrofdezgarcia</sonar.organization>
-          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
 
       </properties>
     </developer>
@@ -114,6 +111,10 @@
 
   <properties>
     <!-- Shared properties with plugins and version numbers across submodules-->
+      <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+      <skipTests>true</skipTests>
+      <sonar.organization>alejandrofdezgarcia</sonar.organization>
+      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <asciidoctorj.version>2.5.3</asciidoctorj.version>
     <bootstrap.version>3.3.7</bootstrap.version>
     <cglib.version>2.2</cglib.version>
